@@ -1,11 +1,10 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import Toolbar from '@mui/material/Toolbar';
-import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import SearchIcon from '@mui/icons-material/Search';
-import Typography from '@mui/material/Typography';
-import Link from '@mui/material/Link';
+
+// import base material-ui components
+import { Toolbar, Button, IconButton, Typography, Link } from '@mui/material';
+
+import {Search as SearchIcon} from '@mui/icons-material';
 
 function Header(props) {
   const { sections, title } = props;
