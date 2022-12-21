@@ -12,6 +12,8 @@
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
     "@mui/material": "latest",
+    "@mui/icons-material": "latest",
+    "markdown-to-jsx": "latest",
     "react": "latest",
     "react-dom": "latest",
     "react-scripts": "latest"
