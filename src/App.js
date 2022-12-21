@@ -1,6 +1,9 @@
 import * as React from 'react';
-import Typography from '@mui/material/Typography';
-import Link from '@mui/material/Link';
+
+// import base material-ui components
+import { Link, Typography } from '@mui/material';
+
+// // import Blog component
 import Blog from './components/Blog';
 
 function Copyright() {
