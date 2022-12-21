@@ -4,12 +4,6 @@ import PropTypes from 'prop-types';
 // import base material-ui components
 import { Grid, Stack, Paper, Typography, Link } from '@mui/material';
 
-// import Grid from '@mui/material/Grid';
-// import Stack from '@mui/material/Stack';
-// import Paper from '@mui/material/Paper';
-// import Typography from '@mui/material/Typography';
-// import Link from '@mui/material/Link';
-
 function Sidebar(props) {
   const { archives, description, social, title } = props;
 
